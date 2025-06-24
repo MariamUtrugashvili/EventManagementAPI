@@ -1,1 +1,1 @@
-# EventMenagementAPI
+# EventManagementAPI
