@@ -1,0 +1,52 @@
+2023-03-26 00:04:57.827 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-26 00:04:59.635 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-26 00:04:59.637 +04:00  INF  Hosting environment: Development
+2023-03-26 00:04:59.637 +04:00  INF  Content root path: C:\Users\maria\Desktop\backup3\EventsDemo\WorkerService
+2023-03-26 00:05:00.518 +04:00  INF  Executed DbCommand (158ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-26 00:06:59.565 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-26 00:07:01.281 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-26 00:07:01.284 +04:00  INF  Hosting environment: Development
+2023-03-26 00:07:01.285 +04:00  INF  Content root path: C:\Users\maria\Desktop\backup3\EventsDemo\WorkerService
+2023-03-26 00:07:02.257 +04:00  INF  Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-26 00:07:03.149 +04:00  INF  Executed DbCommand (113ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-26 00:07:03.277 +04:00  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-26 00:07:05.103 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-26 00:07:05.113 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-26 00:07:05.115 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-26 00:07:10.030 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-26 00:07:10.039 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-26 00:07:10.042 +04:00  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-26 00:07:15.000 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-26 00:07:15.003 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-26 00:07:15.005 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)

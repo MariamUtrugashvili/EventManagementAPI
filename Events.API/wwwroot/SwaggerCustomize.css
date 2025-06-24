@@ -1,0 +1,11 @@
+﻿div.topbar {
+    background-color: rgb(250, 206, 225) !important;
+}
+
+.opblock-summary-get > button > span.opblock-summary-method {
+    background-color: mediumpurple !important;
+}
+
+h2, h3, h4, h5 {
+    color: rgb(195, 98, 188) !important;
+}

@@ -1,0 +1,21 @@
+2023-03-25 00:49:58.548 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/25/2023 12:49:58 AM
+Address = https
+Path = /api/v1/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-25 00:50:05.931 +04:00 [INF] -RESPONSE:
+Time = 3/25/2023 12:50:05 AM
+ResponseBody = 
+[{"id":34
+"title":"TESTT1"
+"description":"test test test test "
+"ticketQuantity":45
+"startTime":"2023-03-23T19:26:31.677"
+"endTime":"2023-03-25T19:26:31.677"}]
+
+

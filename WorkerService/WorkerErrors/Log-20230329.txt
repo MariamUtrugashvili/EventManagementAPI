@@ -1,0 +1,220 @@
+2023-03-29 17:21:02.431 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:03.773 +04:00  INF  Application started. Press Ctrl+C to shut down.
+2023-03-29 17:21:03.775 +04:00  INF  Hosting environment: Development
+2023-03-29 17:21:03.775 +04:00  INF  Content root path: C:\Users\maria\Desktop\backup3\EventsDemo\WorkerService
+2023-03-29 17:21:04.450 +04:00  INF  Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:05.023 +04:00  INF  Executed DbCommand (63ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.090 +04:00  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:05.176 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.203 +04:00  INF  Executed DbCommand (7ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.208 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.216 +04:00  INF  Executed DbCommand (7ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.220 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.227 +04:00  INF  Executed DbCommand (6ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.233 +04:00  INF  Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.240 +04:00  INF  Executed DbCommand (6ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.244 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.252 +04:00  INF  Executed DbCommand (6ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.255 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.264 +04:00  INF  Executed DbCommand (7ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.268 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.274 +04:00  INF  Executed DbCommand (5ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.277 +04:00  INF  Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.285 +04:00  INF  Executed DbCommand (6ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.289 +04:00  INF  Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.294 +04:00  INF  Executed DbCommand (4ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.296 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.298 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.300 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.302 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.303 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.305 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.307 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.309 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.311 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [EventTickets]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:05.313 +04:00  INF  Executed DbCommand (1ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (DbType = DateTime2), @p1='?' (Size = 200), @p2='?' (DbType = DateTime), @p3='?' (DbType = Boolean), @p4='?' (DbType = DateTime), @p5='?' (DbType = Int32), @p6='?' (DbType = Int32), @p7='?' (Size = 100), @p8='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Event] SET [CreatedAt] = @p0, [Description] = @p1, [EndTime] = @p2, [IsAccepted] = @p3, [StartTime] = @p4, [Status] = @p5, [TicketQuantity] = @p6, [Title] = @p7, [UserId] = @p8
+WHERE [Id] = @p9;
+SELECT @@ROWCOUNT;
+2023-03-29 17:21:10.050 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:10.066 +04:00  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:10.070 +04:00  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:15.010 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:15.013 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:15.014 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:20.000 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:20.001 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:20.003 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:25.000 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:25.002 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:25.003 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:30.001 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:30.002 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:30.004 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:35.000 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:35.001 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:35.002 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)
+2023-03-29 17:21:40.000 +04:00  INF  Entity Framework Core 6.0.14 initialized 'EventsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.14' with options: None
+2023-03-29 17:21:40.001 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[Description], [e].[EndTime], [e].[IsAccepted], [e].[StartTime], [e].[Status], [e].[TicketQuantity], [e].[Title], [e].[UserId]
+FROM [Event] AS [e]
+WHERE ([e].[Status] = 0) AND ([e].[IsAccepted] = CAST(1 AS bit))
+2023-03-29 17:21:40.003 +04:00  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[EventItemId], [e].[ReservationTimeLimit], [e].[Status], [e].[TicketStatus], [e].[UserId]
+FROM [EventTickets] AS [e]
+WHERE ([e].[Status] <> 1) AND ([e].[TicketStatus] = 1)

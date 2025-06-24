@@ -1,0 +1,583 @@
+2023-03-20 10:40:50.813 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/20/2023 10:40:50 AM
+Address = https
+Path = /api/Authorization/Register
+IsSecured = True
+RequestBody = {
+  "firstName": "Mariam",
+  "lastName": "Utrugashvili",
+  "email": "Mariami@gmail.com",
+  "passwordHash": "Mariami_1!",
+  "phoneNumber": "599455652"
+}
+
+2023-03-20 10:40:55.825 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:40:55 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:41:10.805 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/20/2023 10:41:10 AM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "Mariami@gmail.com",
+  "passwordHash": "Mariami_1!
+}
+
+2023-03-20 10:41:10.885 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:41:10 AM
+ResponseBody = 
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1"
+"title":"One or more validation errors occurred."
+"status":400
+"traceId":"00-b4da773c6b09bc987b3dfa4cfbe71a38-0713fe4d2d1f6e14-00"
+"errors":{"$.passwordHash":["'0x0A' is invalid within a JSON string. The string should be correctly escaped. Path: $.passwordHash | LineNumber: 2 | BytePositionInLine: 29."]}
+
+
+2023-03-20 10:41:41.672 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/20/2023 10:41:41 AM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "Mariami@gmail.com",
+  "passwordHash": "Mariami_1"
+}
+
+2023-03-20 10:41:42.042 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:41:42 AM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+
+
+2023-03-20 10:41:59.762 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:41:59 AM
+Address = https
+Path = /api/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:41:59.938 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:41:59 AM
+ResponseBody = 
+[]
+
+
+2023-03-20 10:45:55.222 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:45:55 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:45:55.260 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:45:55 AM
+ResponseBody = 
+[]
+
+
+2023-03-20 10:49:07.577 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:49:07 AM
+Address = https
+Path = /api/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "test1",
+  "description": "test1",
+  "ticketQuantity": 30,
+  "startTime": "2023-03-20T13:45:59.728Z",
+  "endTime": "2023-03-20T14:45:59.728Z"
+}
+
+2023-03-20 10:49:07.835 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:49:07 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:49:38.108 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:49:38 AM
+Address = https
+Path = /api/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "test2",
+  "description": "test2",
+  "ticketQuantity": 25,
+  "startTime": "2023-03-20T13:45:59.728Z",
+  "endTime": "2023-03-20T16:45:59.728Z"
+}
+
+2023-03-20 10:49:38.137 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:49:38 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:49:53.589 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:49:53 AM
+Address = https
+Path = /api/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "test3",
+  "description": "test3",
+  "ticketQuantity": 20,
+  "startTime": "2023-03-20T15:45:59.728Z",
+  "endTime": "2023-03-20T16:45:59.728Z"
+}
+
+2023-03-20 10:49:53.600 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:49:53 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:50:04.131 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:50:04 AM
+Address = https
+Path = /api/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:50:04.157 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:50:04 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":false}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":false}
+{"title":"test3"
+"description":"test3"
+"ticketQuantity":20
+"startTime":"2023-03-20T15:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":false}]
+
+
+2023-03-20 10:50:17.685 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTWFyaWFtaUBnbWFpbC5jb20iLCJJZCI6ImI1OTg0ZjBmLTJhNGEtNGQ3NS1hM2Q5LTA2NDBjNDgxZWRkOCIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk0NTAxLCJleHAiOjE2NzkyOTc1MDEsImlhdCI6MTY3OTI5NDUwMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.6JyFcJSxHZvrX8P8ljfd4e_mZuMzEeRjecvlvxnXAr0
+IP = ::1
+Time = 3/20/2023 10:50:17 AM
+Address = https
+Path = /api/Admin/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:50:17.701 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:50:17 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:58:14.210 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/20/2023 10:58:14 AM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "admin@gmail.com",
+  "passwordHash": "Admin_1!"
+}
+
+2023-03-20 10:58:14.248 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:58:14 AM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+
+
+2023-03-20 10:58:29.860 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 10:58:29 AM
+Address = https
+Path = /api/Admin/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:58:29.884 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:58:29 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":false}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":false}
+{"title":"test3"
+"description":"test3"
+"ticketQuantity":20
+"startTime":"2023-03-20T15:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":false}]
+
+
+2023-03-20 10:58:39.648 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 10:58:39 AM
+Address = https
+Path = /api/Admin/AllUnpublishedEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:58:39.672 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:58:39 AM
+ResponseBody = 
+[{"id":27
+"userId":"b5984f0f-2a4a-4d75-a3d9-0640c481edd8"
+"title":"test1"
+"description":"test1"
+"isAccepted":false}
+{"id":28
+"userId":"b5984f0f-2a4a-4d75-a3d9-0640c481edd8"
+"title":"test2"
+"description":"test2"
+"isAccepted":false}
+{"id":29
+"userId":"b5984f0f-2a4a-4d75-a3d9-0640c481edd8"
+"title":"test3"
+"description":"test3"
+"isAccepted":false}]
+
+
+2023-03-20 10:59:28.183 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 10:59:28 AM
+Address = https
+Path = /api/Admin/Publish/27
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:59:28.270 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:59:28 AM
+ResponseBody = 
+
+
+
+2023-03-20 10:59:37.668 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 10:59:37 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:59:37.674 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:59:37 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":true}]
+
+
+2023-03-20 10:59:54.451 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 10:59:54 AM
+Address = https
+Path = /api/Admin/Publish/28
+IsSecured = True
+RequestBody = 
+
+2023-03-20 10:59:54.465 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 10:59:54 AM
+ResponseBody = 
+
+
+
+2023-03-20 11:00:03.032 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 11:00:03 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 11:00:03.046 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:00:03 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":true}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":true}]
+
+
+2023-03-20 11:04:15.947 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 11:04:15 AM
+Address = https
+Path = /api/Authorization/Register
+IsSecured = True
+RequestBody = {
+  "firstName": "lasha",
+  "lastName": "goginava",
+  "email": "lashuti@gmail.com",
+  "passwordHash": "Mariami_1!",
+  "phoneNumber": "555223344"
+}
+
+2023-03-20 11:04:20.222 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:04:20 AM
+ResponseBody = 
+
+
+
+2023-03-20 11:04:39.061 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiJhNzIyMjY2Mi0wZDFjLTQ0YzAtOWFmNC0zMzZjM2Y3YmZjYzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2NzkyOTU0OTQsImV4cCI6MTY3OTI5ODQ5NCwiaWF0IjoxNjc5Mjk1NDk0LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.ImY07A6CFgHTR8J-yRYuKYop8khvBjKoNNeWWg9VCV4
+IP = ::1
+Time = 3/20/2023 11:04:39 AM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "lashuti@gmail.com",
+  "passwordHash": "Mariami_1!"
+}
+
+2023-03-20 11:04:39.244 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:04:39 AM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+
+
+2023-03-20 11:04:57.080 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:04:57 AM
+Address = https
+Path = /api/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 11:04:57.174 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:04:57 AM
+ResponseBody = 
+[]
+
+
+2023-03-20 11:04:59.430 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:04:59 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 11:04:59.492 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:04:59 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":true}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":true}]
+
+
+2023-03-20 11:05:19.687 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:05:19 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 11:05:19.713 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:05:19 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":30
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":true}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":true}]
+
+
+2023-03-20 11:05:53.111 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:05:53 AM
+Address = https
+Path = /api/User/BuyTicket
+IsSecured = True
+RequestBody = {
+  "eventItemId": 27
+}
+
+2023-03-20 11:05:53.315 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:05:53 AM
+ResponseBody = 
+
+
+
+2023-03-20 11:05:59.621 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:05:59 AM
+Address = https
+Path = /api/User/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-20 11:05:59.637 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:05:59 AM
+ResponseBody = 
+[{"title":"test1"
+"description":"test1"
+"ticketQuantity":29
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T14:45:59.727"
+"isAccepted":true}
+{"title":"test2"
+"description":"test2"
+"ticketQuantity":25
+"startTime":"2023-03-20T13:45:59.727"
+"endTime":"2023-03-20T16:45:59.727"
+"isAccepted":true}]
+
+
+2023-03-20 11:06:10.185 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:06:10 AM
+Address = https
+Path = /api/User/BookTicket
+IsSecured = True
+RequestBody = {
+  "eventItemId": 27
+}
+
+2023-03-20 11:06:10.207 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:06:10 AM
+ResponseBody = 
+
+
+
+2023-03-20 11:06:11.124 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:06:11 AM
+Address = https
+Path = /api/User/BookTicket
+IsSecured = True
+RequestBody = {
+  "eventItemId": 27
+}
+
+2023-03-20 11:06:11.138 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:06:11 AM
+ResponseBody = 
+
+
+
+2023-03-20 11:06:11.771 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aUBnbWFpbC5jb20iLCJJZCI6IjFmNWRhZDExLTY5NTEtNDhhOC05OTAxLWE3YWI2YjYyNzNiNSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5Mjk1ODc5LCJleHAiOjE2NzkyOTg4NzksImlhdCI6MTY3OTI5NTg3OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ebDGrOdWOgZN80IsTqcRnLJTh17RpyRBumQmyXd0Ows
+IP = ::1
+Time = 3/20/2023 11:06:11 AM
+Address = https
+Path = /api/User/BookTicket
+IsSecured = True
+RequestBody = {
+  "eventItemId": 27
+}
+
+2023-03-20 11:06:11.782 +04:00 [INF] -RESPONSE:
+Time = 3/20/2023 11:06:11 AM
+ResponseBody = 
+
+
+

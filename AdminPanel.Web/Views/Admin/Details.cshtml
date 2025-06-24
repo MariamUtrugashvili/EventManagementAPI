@@ -1,0 +1,54 @@
+﻿@model Events.Application.Events.Responses.EventResponseModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<div>
+    <hr />
+    <dl class="row">
+        @*  <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Id)
+        </dt>*@
+        @* <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Id)
+        </dd>*@
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TicketQuantity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TicketQuantity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StartTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EndTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EndTime)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" class="btn btn-sm btn-primary">Back to List</a>
+    <a asp-controller="Admin" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-sm btn-primary">Delete Event</a>
+    <a asp-controller="Admin" asp-action="PublishEvent" asp-route-id="@Model.Id" class="btn btn-sm btn-primary">Publish Event</a>
+
+</div>

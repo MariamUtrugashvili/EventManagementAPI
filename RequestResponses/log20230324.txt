@@ -1,0 +1,59 @@
+2023-03-24 19:13:06.711 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/24/2023 7:13:06 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "user1!"
+}
+
+2023-03-24 19:13:15.705 +04:00 [INF] -RESPONSE:
+Time = 3/24/2023 7:13:15 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjc5NjcwNzk1LCJleHAiOjE2Nzk2NzM3OTUsImlhdCI6MTY3OTY3MDc5NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.YrJzsZernPAilXP44LKAibnkypclOJjR7GxkQ5vgu_A
+
+
+2023-03-24 19:14:15.605 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/24/2023 7:14:15 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "admin@gmail.com",
+  "passwordHash": "admin1!"
+}
+
+2023-03-24 19:14:15.776 +04:00 [INF] -RESPONSE:
+Time = 3/24/2023 7:14:15 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiI4YWEwODY4MS1iNjcwLTQ2YTMtYjViOS01ZTY4ODE1YTkzMzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2Nzk2NzA4NTUsImV4cCI6MTY3OTY3Mzg1NSwiaWF0IjoxNjc5NjcwODU1LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.SlWNx4YyZPd1RkgNpADXDKOiSHZtaoJ6Wt9t0phz8LI
+
+
+2023-03-24 19:14:32.648 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiI4YWEwODY4MS1iNjcwLTQ2YTMtYjViOS01ZTY4ODE1YTkzMzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2Nzk2NzA4NTUsImV4cCI6MTY3OTY3Mzg1NSwiaWF0IjoxNjc5NjcwODU1LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.SlWNx4YyZPd1RkgNpADXDKOiSHZtaoJ6Wt9t0phz8LI
+IP = ::1
+Time = 3/24/2023 7:14:32 PM
+Address = https
+Path = /api/v1/Admin/Event/34
+IsSecured = True
+RequestBody = 
+
+2023-03-24 19:14:33.287 +04:00 [INF] -RESPONSE:
+Time = 3/24/2023 7:14:33 PM
+ResponseBody = 
+{"id":34
+"title":"TESTT1"
+"description":"test test test test "
+"ticketQuantity":14
+"startTime":"2023-03-23T19:26:31.677"
+"endTime":"2023-03-24T19:26:31.677"}
+
+

@@ -1,0 +1,784 @@
+2023-03-29 16:42:51.907 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:42:51 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "admin@gmail.com",
+  "passwordHash": "Admin1!"
+}
+
+2023-03-29 16:42:56.214 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:42:56 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiI4YWEwODY4MS1iNjcwLTQ2YTMtYjViOS01ZTY4ODE1YTkzMzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2ODAwOTM3NzUsImV4cCI6MTY4MDA5Njc3NSwiaWF0IjoxNjgwMDkzNzc1LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.p1FPmHgmJCVpKsK6ledtRUcviw2eBobbyo7YkpnWLAg
+
+
+2023-03-29 16:43:09.595 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:43:09 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 16:43:09.665 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:43:09 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDkzNzg5LCJleHAiOjE2ODAwOTY3ODksImlhdCI6MTY4MDA5Mzc4OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.CmL091jY_vNFFoUfzHEUc28yaUHfA7toI1xvjbEdOF0
+
+
+2023-03-29 16:43:23.484 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDkzNzg5LCJleHAiOjE2ODAwOTY3ODksImlhdCI6MTY4MDA5Mzc4OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.CmL091jY_vNFFoUfzHEUc28yaUHfA7toI1xvjbEdOF0
+IP = ::1
+Time = 3/29/2023 4:43:23 PM
+Address = https
+Path = /api/v1/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-29 16:43:23.712 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:43:23 PM
+ResponseBody = 
+[{"id":34
+"title":"ERIC CLAPTON TRIBUTE SHOW"
+"description":"\uD83D\uDD39Wednesday
+ March 29
+ Arteria presents Eric Clapton Tribute Show !"
+"ticketQuantity":49
+"startTime":"2023-03-30T19:30:31.677"
+"endTime":"2023-03-30T22:26:31.677"}
+{"id":41
+"title":"მოვეფეროთ ფისოებს"
+"description":"ივენთი განკუთვნილია ყველა იმ ადამინისთვის ვისაც ფისოები უყვარს"
+"ticketQuantity":100
+"startTime":"2023-03-30T10:15:58.117"
+"endTime":"2023-03-31T14:15:58.117"}
+{"id":43
+"title":"Performance - Mother Courage"
+"description":"Batumi Drama Theater"
+"ticketQuantity":25
+"startTime":"2023-03-29T20:37:00"
+"endTime":"2023-03-29T23:37:00"}
+{"id":45
+"title":"sindorelaaa"
+"description":"bindorelaa"
+"ticketQuantity":40
+"startTime":"2023-03-31T22:38:00"
+"endTime":"2023-04-01T23:38:00"}]
+
+
+2023-03-29 16:44:28.597 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDkzNzg5LCJleHAiOjE2ODAwOTY3ODksImlhdCI6MTY4MDA5Mzc4OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.CmL091jY_vNFFoUfzHEUc28yaUHfA7toI1xvjbEdOF0
+IP = ::1
+Time = 3/29/2023 4:44:28 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:42:20.5546208+04:00",
+  "endTime": "2023-03-30T04:42:20.5547025+04:00"
+}
+
+2023-03-29 16:44:29.057 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:44:29 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 16:44:44.880 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDkzNzg5LCJleHAiOjE2ODAwOTY3ODksImlhdCI6MTY4MDA5Mzc4OSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.CmL091jY_vNFFoUfzHEUc28yaUHfA7toI1xvjbEdOF0
+IP = ::1
+Time = 3/29/2023 4:44:44 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:42:20.5546208+04:00",
+  "endTime": "2023-03-30T04:42:20.5547025+04:00"
+}
+
+2023-03-29 16:46:45.574 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:46:45 PM
+Address = https
+Path = /api/v1/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "Mad Mozart",
+  "description": "The Mad Mozart symphonic band performs the instrumental show that leaves no one indifferent.",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T07:46:25.7722337+04:00",
+  "endTime": "2023-03-30T12:46:25.7722349+04:00"
+}
+
+2023-03-29 16:46:45.700 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:46:45 PM
+ResponseBody = 
+
+
+
+2023-03-29 16:47:21.326 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:47:21 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 16:47:25.649 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:47:25 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+
+
+2023-03-29 16:47:40.080 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:47:40 PM
+Address = https
+Path = /api/v1/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "Mad Mozart",
+  "description": "The Mad Mozart symphonic band performs the instrumental show that leaves no one indifferent.",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T07:46:58.9257453+04:00",
+  "endTime": "2023-03-30T12:46:58.9260419+04:00"
+}
+
+2023-03-29 16:47:40.327 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:47:40 PM
+ResponseBody = 
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1"
+"title":"One or more validation errors occurred."
+"status":400
+"traceId":"00-9bba7383209c0c57b42b4f35e80932af-1a4a3a00ebd81a6e-00"
+"errors":{"Title.Length":["Title should be greater than 10 and less than or equal to 100 characters"]}}
+
+
+2023-03-29 16:48:11.133 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:48:11 PM
+Address = https
+Path = /api/v1/User/CreateEvent
+IsSecured = True
+RequestBody = {
+  "title": "Madd Mozart",
+  "description": "The Mad Mozart symphonic band performs the instrumental show that leaves no one indifferent.",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T07:46:58.9257453+04:00",
+  "endTime": "2023-03-30T12:46:58.9260419+04:00"
+}
+
+2023-03-29 16:48:11.611 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:48:11 PM
+ResponseBody = 
+
+
+
+2023-03-29 16:48:21.104 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:48:21 PM
+Address = https
+Path = /api/v1/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-29 16:48:21.197 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:48:21 PM
+ResponseBody = 
+[{"id":34
+"title":"ERIC CLAPTON TRIBUTE SHOW"
+"description":"\uD83D\uDD39Wednesday
+ March 29
+ Arteria presents Eric Clapton Tribute Show !"
+"ticketQuantity":49
+"startTime":"2023-03-30T19:30:31.677"
+"endTime":"2023-03-30T22:26:31.677"}
+{"id":41
+"title":"მოვეფეროთ ფისოებს"
+"description":"ივენთი განკუთვნილია ყველა იმ ადამინისთვის ვისაც ფისოები უყვარს"
+"ticketQuantity":100
+"startTime":"2023-03-30T10:15:58.117"
+"endTime":"2023-03-31T14:15:58.117"}
+{"id":43
+"title":"Performance - Mother Courage"
+"description":"Batumi Drama Theater"
+"ticketQuantity":25
+"startTime":"2023-03-29T20:37:00"
+"endTime":"2023-03-29T23:37:00"}
+{"id":45
+"title":"sindorelaaa"
+"description":"bindorelaa"
+"ticketQuantity":40
+"startTime":"2023-03-31T22:38:00"
+"endTime":"2023-04-01T23:38:00"}
+{"id":46
+"title":"Madd Mozart"
+"description":"The Mad Mozart symphonic band performs the instrumental show that leaves no one indifferent."
+"ticketQuantity":50
+"startTime":"2023-03-30T07:46:58.927"
+"endTime":"2023-03-30T12:46:58.927"}]
+
+
+2023-03-29 16:48:52.323 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:48:52 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorela",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 16:48:52.349 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:48:52 PM
+ResponseBody = 
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1"
+"title":"One or more validation errors occurred."
+"status":400
+"traceId":"00-06fc21ba979335dfa555529e5bfc0bed-eb7bf4da24c0e640-00"
+"errors":{"Title.Length":["Title should be greater than 10 and less than or equal to 100 characters"]}}
+
+
+2023-03-29 16:49:14.557 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:49:14 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorela",
+  "description": "ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 16:49:14.560 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:49:14 PM
+ResponseBody = 
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1"
+"title":"One or more validation errors occurred."
+"status":400
+"traceId":"00-bed861e3205232ccc2f24285c128d5a6-6aa6d7bb189c4785-00"
+"errors":{"Title.Length":["Title should be greater than 10 and less than or equal to 100 characters"]}}
+
+
+2023-03-29 16:49:33.273 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:49:33 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 16:49:33.278 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:49:33 PM
+ResponseBody = 
+{"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1"
+"title":"One or more validation errors occurred."
+"status":400
+"traceId":"00-bc725b217dc57f1b73a9f08675a588f1-c7d0db915a84c419-00"
+"errors":{"Title.Length":["Title should be greater than 10 and less than or equal to 100 characters"]}}
+
+
+2023-03-29 16:49:40.363 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MDQ1LCJleHAiOjE2ODAwOTcwNDUsImlhdCI6MTY4MDA5NDA0NSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Av0QW-ZApe9cjRymT6MPcZpteN3sNcNN76p_w_xeNdg
+IP = ::1
+Time = 3/29/2023 4:49:40 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 16:49:43.655 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:49:43 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 16:51:13.799 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:51:13 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "admin@gmail.com",
+  "passwordHash": "Admin1!"
+}
+
+2023-03-29 16:51:18.000 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:51:18 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiI4YWEwODY4MS1iNjcwLTQ2YTMtYjViOS01ZTY4ODE1YTkzMzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2ODAwOTQyNzcsImV4cCI6MTY4MDA5NzI3NywiaWF0IjoxNjgwMDk0Mjc3LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.16ORwa5XOdIpoW07Ght-4fsUx4T75cXp46RkiAD3rZU
+
+
+2023-03-29 16:51:38.935 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYWRtaW5AZ21haWwuY29tIiwiSWQiOiI4YWEwODY4MS1iNjcwLTQ2YTMtYjViOS01ZTY4ODE1YTkzMzciLCJSb2xlIjoiQWRtaW4iLCJuYmYiOjE2ODAwOTQyNzcsImV4cCI6MTY4MDA5NzI3NywiaWF0IjoxNjgwMDk0Mjc3LCJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QifQ.16ORwa5XOdIpoW07Ght-4fsUx4T75cXp46RkiAD3rZU
+IP = ::1
+Time = 3/29/2023 4:51:38 PM
+Address = https
+Path = /api/v1/Admin/SetEventsChangeTime
+IsSecured = True
+RequestBody = 
+
+2023-03-29 16:51:39.096 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:51:39 PM
+ResponseBody = 
+
+
+
+2023-03-29 16:52:04.242 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 4:52:04 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 16:52:04.289 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 4:52:04 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MzI0LCJleHAiOjE2ODAwOTczMjQsImlhdCI6MTY4MDA5NDMyNCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.YrVDvRoW5wFAmHL4V818Lf2WgU3loJbMTq-ryXSpRgg
+
+
+2023-03-29 16:52:24.463 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0MzI0LCJleHAiOjE2ODAwOTczMjQsImlhdCI6MTY4MDA5NDMyNCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.YrVDvRoW5wFAmHL4V818Lf2WgU3loJbMTq-ryXSpRgg
+IP = ::1
+Time = 3/29/2023 4:52:24 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 17:00:03.906 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 5:00:03 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User@gmail.com"
+}
+
+2023-03-29 17:00:08.186 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 5:00:08 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0ODA3LCJleHAiOjE2ODAwOTc4MDcsImlhdCI6MTY4MDA5NDgwNywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.sm064k64KiE_uP55CWuB9TQZahOCw-5qB1jZTufbML8
+
+
+2023-03-29 17:00:21.208 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 5:00:21 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "user1!"
+}
+
+2023-03-29 17:00:21.298 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 5:00:21 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0ODIxLCJleHAiOjE2ODAwOTc4MjEsImlhdCI6MTY4MDA5NDgyMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hqrm_ARL_ncx44HCSabK0gCZyq053tIwTDezh_soKNg
+
+
+2023-03-29 17:01:40.881 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk0ODIxLCJleHAiOjE2ODAwOTc4MjEsImlhdCI6MTY4MDA5NDgyMSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hqrm_ARL_ncx44HCSabK0gCZyq053tIwTDezh_soKNg
+IP = ::1
+Time = 3/29/2023 5:01:40 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaa",
+  "description": "ივენთი განკუთვნილია ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 17:13:30.402 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 5:13:30 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 17:13:35.195 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 5:13:35 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk1NjE0LCJleHAiOjE2ODAwOTg2MTQsImlhdCI6MTY4MDA5NTYxNCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.tlm1aokhW7GwpAT-yV6I2ClA0gAvtNxjy1FqE4N2Qn4
+
+
+2023-03-29 17:14:32.212 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 5:14:32 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaa",
+  "description": "ივენთი  ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 17:14:32.239 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 5:14:32 PM
+ResponseBody = 
+
+
+
+2023-03-29 17:14:52.439 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMDk1NjE0LCJleHAiOjE2ODAwOTg2MTQsImlhdCI6MTY4MDA5NTYxNCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.tlm1aokhW7GwpAT-yV6I2ClA0gAvtNxjy1FqE4N2Qn4
+IP = ::1
+Time = 3/29/2023 5:14:52 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaa",
+  "description": "ივენთი  ფისოები უყვარს",
+  "ticketQuantity": 80,
+  "startTime": "2023-03-30T00:46:58.9286386+04:00",
+  "endTime": "2023-03-30T04:46:58.9290742+04:00"
+}
+
+2023-03-29 20:23:42.200 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 8:23:42 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 20:23:46.741 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:23:46 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3MDI2LCJleHAiOjE2ODAxMTAwMjYsImlhdCI6MTY4MDEwNzAyNiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hBv03LWCtW7knC9-kKXVvF_a-hHG3-jikF2UO3fBBIs
+
+
+2023-03-29 20:24:13.092 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3MDI2LCJleHAiOjE2ODAxMTAwMjYsImlhdCI6MTY4MDEwNzAyNiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hBv03LWCtW7knC9-kKXVvF_a-hHG3-jikF2UO3fBBIs
+IP = ::1
+Time = 3/29/2023 8:24:13 PM
+Address = https
+Path = /api/v1/User/MyEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-29 20:24:13.388 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:24:13 PM
+ResponseBody = 
+[{"id":34
+"title":"ERIC CLAPTON TRIBUTE SHOW"
+"description":"\uD83D\uDD39Wednesday
+ March 29
+ Arteria presents Eric Clapton Tribute Show !"
+"ticketQuantity":63
+"startTime":"2023-03-30T19:30:31.677"
+"endTime":"2023-03-30T22:26:31.677"}
+{"id":41
+"title":"მოვეფეროთ ფისოებს"
+"description":"ივენთი განკუთვნილია ყველა იმ ადამინისთვის ვისაც ფისოები უყვარს"
+"ticketQuantity":100
+"startTime":"2023-03-30T10:15:58.117"
+"endTime":"2023-03-31T14:15:58.117"}
+{"id":43
+"title":"Performance - Mother Courage"
+"description":"Batumi Drama Theater"
+"ticketQuantity":25
+"startTime":"2023-03-29T20:37:00"
+"endTime":"2023-03-29T23:37:00"}
+{"id":45
+"title":"sindorelaaa"
+"description":"bindorelaa"
+"ticketQuantity":40
+"startTime":"2023-03-31T22:38:00"
+"endTime":"2023-04-01T23:38:00"}
+{"id":46
+"title":"Madd Mozart"
+"description":"The Mad Mozart symphonic band performs the instrumental show that leaves no one indifferent."
+"ticketQuantity":50
+"startTime":"2023-03-30T07:46:58.927"
+"endTime":"2023-03-30T12:46:58.927"}]
+
+
+2023-03-29 20:24:49.685 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3MDI2LCJleHAiOjE2ODAxMTAwMjYsImlhdCI6MTY4MDEwNzAyNiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hBv03LWCtW7knC9-kKXVvF_a-hHG3-jikF2UO3fBBIs
+IP = ::1
+Time = 3/29/2023 8:24:49 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 45,
+  "title": "sindorelaaaaaaaaa",
+  "description": "bindorelaa",
+  "ticketQuantity": 40,
+  "startTime": "2023-03-31T22:38:00",
+  "endTime": "2023-04-01T23:38:00"
+}
+
+2023-03-29 20:24:50.191 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:24:50 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 20:27:51.318 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3MDI2LCJleHAiOjE2ODAxMTAwMjYsImlhdCI6MTY4MDEwNzAyNiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hBv03LWCtW7knC9-kKXVvF_a-hHG3-jikF2UO3fBBIs
+IP = ::1
+Time = 3/29/2023 8:27:51 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody =  {
+  "id": 45,
+  "title": "sindorelaaaaaaaaa",
+  "description": "bindorelaa",
+  "ticketQuantity": 40,
+  "startTime": "2023-03-31T22:38:00",
+  "endTime": "2023-04-01T23:38:00"
+}
+
+2023-03-29 20:28:26.175 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:28:26 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 20:28:56.813 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3MDI2LCJleHAiOjE2ODAxMTAwMjYsImlhdCI6MTY4MDEwNzAyNiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.hBv03LWCtW7knC9-kKXVvF_a-hHG3-jikF2UO3fBBIs
+IP = ::1
+Time = 3/29/2023 8:28:56 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody =  {
+  "id": 45,
+  "title": "sindorelaaaaaaaaa",
+  "description": "bindorelaa",
+  "ticketQuantity": 40,
+  "startTime": "2023-03-31T22:38:00",
+  "endTime": "2023-04-01T23:38:00"
+}
+
+2023-03-29 20:29:23.750 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:29:23 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 20:30:59.153 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/29/2023 8:30:59 PM
+Address = https
+Path = /api/v1/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "user@gmail.com",
+  "passwordHash": "User1!"
+}
+
+2023-03-29 20:31:03.640 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:31:03 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3NDYzLCJleHAiOjE2ODAxMTA0NjMsImlhdCI6MTY4MDEwNzQ2MywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Y-HCYGyNduUPo26XhFHmjjpa2Rh0BL3iOnDnBnZQwes
+
+
+2023-03-29 20:31:40.080 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3NDYzLCJleHAiOjE2ODAxMTA0NjMsImlhdCI6MTY4MDEwNzQ2MywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Y-HCYGyNduUPo26XhFHmjjpa2Rh0BL3iOnDnBnZQwes
+IP = ::1
+Time = 3/29/2023 8:31:40 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 46,
+  "title": "ფისოებს",
+  "description": "ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T04:30:34.6761731+04:00",
+  "endTime": "2023-03-30T08:30:34.6762564+04:00"
+}
+
+2023-03-29 20:33:09.163 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3NDYzLCJleHAiOjE2ODAxMTA0NjMsImlhdCI6MTY4MDEwNzQ2MywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Y-HCYGyNduUPo26XhFHmjjpa2Rh0BL3iOnDnBnZQwes
+IP = ::1
+Time = 3/29/2023 8:33:09 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 46,
+  "title": "ფისოებს",
+  "description": "ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T04:30:34.6761731+04:00",
+  "endTime": "2023-03-30T08:30:34.6762564+04:00"
+}
+
+2023-03-29 20:33:42.368 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3NDYzLCJleHAiOjE2ODAxMTA0NjMsImlhdCI6MTY4MDEwNzQ2MywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Y-HCYGyNduUPo26XhFHmjjpa2Rh0BL3iOnDnBnZQwes
+IP = ::1
+Time = 3/29/2023 8:33:42 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 46,
+  "title": "ფისოებს",
+  "description": "ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T04:30:34.6761731+04:00",
+  "endTime": "2023-03-30T08:30:34.6762564+04:00"
+}
+
+2023-03-29 20:34:33.668 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:34:33 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 20:34:53.934 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:34:53 PM
+ResponseBody = 
+No response body
+
+
+2023-03-29 20:41:12.633 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlckBnbWFpbC5jb20iLCJJZCI6IjRjMjE5ZWU3LWNkMTktNGY1MC05NmJmLWE2ZDVlMDViZTI0YSIsIlJvbGUiOiJVc2VyIiwibmJmIjoxNjgwMTA3NDYzLCJleHAiOjE2ODAxMTA0NjMsImlhdCI6MTY4MDEwNzQ2MywiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.Y-HCYGyNduUPo26XhFHmjjpa2Rh0BL3iOnDnBnZQwes
+IP = ::1
+Time = 3/29/2023 8:41:12 PM
+Address = https
+Path = /api/v1/User/UpdateEvent
+IsSecured = True
+RequestBody = {
+  "id": 46,
+  "title": "ფისოებს",
+  "description": "ყველა იმ ადამინისთვისვისაც ფისოები უყვარს",
+  "ticketQuantity": 50,
+  "startTime": "2023-03-30T04:30:34.6761731+04:00",
+  "endTime": "2023-03-30T08:30:34.6762564+04:00"
+}
+
+2023-03-29 20:41:16.283 +04:00 [INF] -RESPONSE:
+Time = 3/29/2023 8:41:16 PM
+ResponseBody = 
+
+
+

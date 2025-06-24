@@ -1,0 +1,211 @@
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/18/2023 1:16:41 PM
+Address = https
+Path = /api/Authorization/Register
+IsSecured = True
+RequestBody = {
+  "firstName": "Lasha",
+  "lastName": "Goginava",
+  "email": "lashuti31@gmail.com",
+  "userName": "lashuti",
+  "passwordHash": "Lashuti1!",
+  "phoneNumber": "579626211"
+}
+
+2023-03-18 13:16:44.602 +04:00 [INF] -RESPONSE:
+Time = 3/18/2023 1:16:44 PM
+ResponseBody = 
+
+
+
+2023-03-18 13:17:11.571 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/18/2023 1:17:11 PM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+Path = /api/User
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+IsSecured = True
+
+ResponseBody = 
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+-------------------------------------------------
+IP = ::1
+Address = https
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aSIsIklkIjoiOTU4NDg3OGQtYTM4MS00YjA5LTkyMmYtMjczNmNlZGE4MmZmIiwibmJmIjoxNjc5MTMxMjQxLCJleHAiOjE2NzkxMzQyNDEsImlhdCI6MTY3OTEzMTI0MSwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.kyINDkw8O6loTMpekaeiSJfeCmKRoRJCC016FlskbkI
+
+
+2023-03-18 13:20:42.044 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aSIsIklkIjoiOTU4NDg3OGQtYTM4MS00YjA5LTkyMmYtMjczNmNlZGE4MmZmIiwibmJmIjoxNjc5MTMxMTE4LCJleHAiOjE2NzkxMzQxMTgsImlhdCI6MTY3OTEzMTExOCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ZUF7okQ8V3m8JnIyqSO2KyvWi0z9Nq0o7-1rGFPqz84
+IP = ::1
+Time = 3/18/2023 1:20:42 PM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "LASHUTI31@gmail.com",
+  "passwordHash": "Lashuti1!"
+}
+
+-------------------------------------------------
+IP = ::1
+Address = https
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+No response body
+
+
+2023-03-18 13:23:15.924 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibGFzaHV0aSIsIklkIjoiOTU4NDg3OGQtYTM4MS00YjA5LTkyMmYtMjczNmNlZGE4MmZmIiwibmJmIjoxNjc5MTMxMjQyLCJleHAiOjE2NzkxMzQyNDIsImlhdCI6MTY3OTEzMTI0MiwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.p6NsfuwiUD2Yrh-dse4n4YEHmXxb7jGFu0JZPcGG2cw
+IP = ::1
+Time = 3/18/2023 1:23:15 PM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "LASHUTI311@gmail.com",
+  "passwordHash": "Lashuti1!"
+}
+
+2023-03-18 13:23:16.073 +04:00 [INF] -RESPONSE:
+Time = 3/18/2023 1:23:16 PM
+ResponseBody = 
+No response body
+
+
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Address = https
+IsSecured = True
+RequestBody = {
+}
+
+ResponseBody = 
+
+
+2023-03-18 14:47:12.852 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/18/2023 2:47:12 PM
+Address = https
+Path = /api/Authorization/Register
+IsSecured = True
+RequestBody = {
+  "firstName": "Anzor",
+  "lastName": "Butaforia",
+  "email": "Anz123@gmail.com",
+  "passwordHash": "Anz123!",
+  "phoneNumber": "555123456"
+}
+
+2023-03-18 14:47:17.474 +04:00 [INF] -RESPONSE:
+Time = 3/18/2023 2:47:17 PM
+ResponseBody = 
+
+
+
+2023-03-18 14:48:20.049 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = 
+IP = ::1
+Time = 3/18/2023 2:48:20 PM
+Address = https
+Path = /api/Authorization/LogIn
+IsSecured = True
+RequestBody = {
+  "email": "Anz123@gmail.com",
+  "passwordHash": "Anz123!"
+}
+
+2023-03-18 14:48:20.582 +04:00 [INF] -RESPONSE:
+Time = 3/18/2023 2:48:20 PM
+ResponseBody = 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW56MTIzQGdtYWlsLmNvbSIsIklkIjoiNmU3OTE0YTgtYWYzNi00NDI5LWE1OWQtMmI5M2ZhMzM3MDAxIiwibmJmIjoxNjc5MTM2NTAwLCJleHAiOjE2NzkxMzk1MDAsImlhdCI6MTY3OTEzNjUwMCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ZK59TJsoRAcQ4coz_DrcHl1m8as-vA7SkBvs3r5upZU
+
+
+2023-03-18 14:48:35.613 +04:00 [INF] 
+-------------------------------------------------
+JWTtoken = bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW56MTIzQGdtYWlsLmNvbSIsIklkIjoiNmU3OTE0YTgtYWYzNi00NDI5LWE1OWQtMmI5M2ZhMzM3MDAxIiwibmJmIjoxNjc5MTM2NTAwLCJleHAiOjE2NzkxMzk1MDAsImlhdCI6MTY3OTEzNjUwMCwiaXNzIjoibG9jYWxob3N0IiwiYXVkIjoibG9jYWxob3N0In0.ZK59TJsoRAcQ4coz_DrcHl1m8as-vA7SkBvs3r5upZU
+IP = ::1
+Time = 3/18/2023 2:48:35 PM
+Address = https
+Path = /api/Admin/AllEvents
+IsSecured = True
+RequestBody = 
+
+2023-03-18 14:48:35.698 +04:00 [INF] -RESPONSE:
+Time = 3/18/2023 2:48:35 PM
+ResponseBody = 
+No response body
+
+

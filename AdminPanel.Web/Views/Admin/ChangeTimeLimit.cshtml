@@ -1,0 +1,8 @@
+﻿@using (Html.BeginForm("SetEventsChangeTimeLimit", "Admin", FormMethod.Post))
+{
+    @Html.Label("Input Limit of the ability to edit Event's details (in hours): ")
+    @Html.TextBox("Time")
+
+
+    <input type="submit" value="Submit" />
+}
